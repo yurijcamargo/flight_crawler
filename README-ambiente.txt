@@ -1,16 +1,16 @@
-# Como ativar o ambiente virtual (.venv)
+# How to Activate the Virtual Environment (.venv)
 
-No Windows PowerShell, para ativar o ambiente virtual:
+On Windows PowerShell, to activate the virtual environment:
     .\.venv\Scripts\Activate.ps1
 
-No Prompt de Comando (cmd):
+On Command Prompt (cmd):
     .\.venv\Scripts\activate.bat
 
-No Linux/macOS (bash/zsh):
+On Linux/macOS (bash/zsh):
     source .venv/bin/activate
 
-Depois disso, instale as bibliotecas com:
-    pip install nome_do_pacote
+After that, install the libraries with:
+    pip install package_name
 
-Para desativar o ambiente:
+To deactivate the environment:
     deactivate
